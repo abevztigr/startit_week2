@@ -8,10 +8,7 @@
             <?php
             if ( have_posts() ) : query_posts('category_name=lorem-ipsum-dolor-sit-consectet-ipsum-dolor-sit');
                 while ( have_posts() ): the_post();
-                    // код вывода
-
             ?>
-
             <div class="col-lg-4 col-md-6">
                 <div class="servicebox">
                     <div class="srv_desc">
@@ -22,7 +19,6 @@
                 </div>
             </div>
             <?php endwhile; endif; wp_reset_query() ;?>
-
         </div>
     </div>
 </section>

@@ -17,7 +17,6 @@
             if ( have_posts() ) : query_posts('category_name=latest_articles');
             while ( have_posts() ): the_post();
             // код вывода
-
             ?>
             <div class="col-md-6 col-lg-4">
                 <div class="blog_post">
@@ -36,9 +35,7 @@
                     </div>
                 </div>
             </div>
-
             <?php endwhile; endif; wp_reset_query() ;?>
-
         </div>
     </div>
 </section>

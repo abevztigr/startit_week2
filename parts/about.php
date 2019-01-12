@@ -11,7 +11,6 @@
                         <p>Ut enim ad minima veniam, quis nostrum exercitationem corpo commosequatur? Quis autem vel eum iure veniam, quis nostru sequatur? Quis autem vel eum Quis autem vel eum iure veniam lorem quis nostru iure...</p>
                     </div>
                     <div class="about_img_box">
-
                         <img src="<?php echo get_template_directory_uri(); ?> /images/about/img1.jpg" alt="img">
                     </div>
                 </div>
