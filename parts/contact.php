@@ -12,23 +12,23 @@
             <div class="col-md-4 col-lg-4">
                 <div class="contact-info">
                     <div class="contact-info-details">
-                        <h4><?php the_field( 'phone' );?></h4>
-                        <p><?php the_field( 'number_phone' );?></p>
+                        <h4>Phone</h4>
+                        <p><?php the_field( 'phone', 412 );?></p>
                     </div>
                     <div class="contact-info-details">
-                        <h4><?php the_field( 'address' );?></h4>
-                        <p><?php the_field( 'address_fact' );?></p>
+                        <h4>Address</h4>
+                        <p><?php the_field( 'addr' , 412 );?></p>
                     </div>
                     <div class="contact-info-details">
-                        <h4><?php the_field( 'mail' );?></h4>
-                        <p><?php the_field( 'carrbyagency_gmailcom' );?></p>
+                        <h4>E-mail</h4>
+                        <p><?php the_field( 'email' ,412 );?></p>
                     </div>
                 </div>
             </div>
             <div class="col-md-7 col-lg-7 offset-lg-1">
                 <div class="contact-form-two">
                     <div class="contact-title">
-                        <h3><?php the_field( 'drop_us' );?></h3>
+                        <h3>Drop Us a line</h3>
                         <form class="appoint-form-two" action="http://wpthemebooster.com/demo/themeforest/html/carrby/register.php" method="post">
                             <div class="form-container">
                                 <div class="row">
@@ -74,5 +74,7 @@
         </div>
     </div>
 </section>
+
+
 </div><!-- End Main Wrapper-->
 

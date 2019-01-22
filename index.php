@@ -25,6 +25,7 @@ get_template_part( 'parts/portfolio', 'portfolio' );
 get_template_part( 'parts/blog', 'blog' );
 ?>
 
+
 <?php
 get_template_part( 'parts/contact', 'contact' );
 ?>

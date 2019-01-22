@@ -6,6 +6,7 @@
  * Time: 20:53
  */
 function podklyucheniye_stiley(){
+
 // Регистрируем стиль в системе (для темы):
     wp_register_style( 'nekiy-style', get_template_directory_uri() . '/style.css', array(),
         '1', 'all' );
